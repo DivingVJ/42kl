@@ -44,5 +44,10 @@ void	ft_print_comb2(void)
 		}
 		first_nbr++;
 	}
-	write(1, "\n", 2);
+}
+
+int	main(void)
+{
+	ft_print_comb2();
+	return (0);
 }
