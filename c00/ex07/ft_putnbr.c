@@ -14,6 +14,12 @@ void	ft_putnbr(int nb)
 {
 	int		j;
 
+	if (nb == -2147483648)
+	{
+		write(1, "-2147483648", 11);
+		return ;
+	}
+	j = 0;
 	if ((nb >= 0) && (nb < 10))
 	{
 		ft_putchar(nb + '0');
@@ -29,4 +35,13 @@ void	ft_putnbr(int nb)
 		ft_putchar('-');
 		ft_putnbr(nb * -1);
 	}
+}
+
+int	main(void)
+{
+	int	i;
+
+	i = -2147483648;
+	ft_putnbr(i);
+	return (0);
 }
