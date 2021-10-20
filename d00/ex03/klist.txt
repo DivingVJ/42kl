@@ -1,0 +1,10 @@
+Credentials cache: API:D4D384F1-D1CC-4981-BF98-7CE0474848AC
+        Principal: vvelayut@42KL.EDU.MY
+
+  Issued                Expires               Principal
+Jun 21 13:49:46 2021  Jun 21 23:49:35 2021  krbtgt/42KL.EDU.MY@42KL.EDU.MY
+Credentials cache: API:CB0020FC-1920-40F8-8658-51EEBBD2ACE2
+        Principal: vvelayut@42KL.EDU.MY
+
+  Issued                Expires               Principal
+Jun 22 12:58:33 2021  Jun 22 22:58:21 2021  krbtgt/42KL.EDU.MY@42KL.EDU.MY
