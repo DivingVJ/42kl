@@ -55,10 +55,10 @@ void	ft_putnbr_base( int nbr, char *base)
 	blen = ft_strlen(base);
 	if (check_base(base) == 1)
 	{
-		if (unsgnum < 0)
+		if (nbr < 0)
 		{
 			ft_putchar('-');
-			unsgnum = unsgnum * -1;
+			unsgnum = nbr * -1;
 		}
 		if (unsgnum >= blen)
 		{
